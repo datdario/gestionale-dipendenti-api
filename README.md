@@ -1,6 +1,6 @@
 # Gestionale Dipendenti – RESTful API
 
-Servizio web RESTful sviluppato in **Java 21 e Spring Boot** per la gestione aziendale di dipendenti e dipartimenti, progettato seguendo un'architettura a livelli (*Controller, Service, Repository*) e i principi OOP / Dependency Injection.
+Servizio web RESTful sviluppato nell'ambito didattico in **Java 21 e Spring Boot** per la gestione aziendale di dipendenti e dipartimenti, progettato seguendo un'architettura a livelli (*Controller, Service, Repository*) e i principi OOP / Dependency Injection.
 
 ## Stack Tecnologico
 - **Backend:** Java 21, Spring Boot, Spring Web
