@@ -28,7 +28,17 @@ Servizio web RESTful sviluppato in **Java 21 e Spring Boot** per la gestione azi
 | `DELETE` | `/api/dipendenti/{id}` | Elimina un dipendente |
 
 ## Avvio Locale
-1. Avviare **MySQL Server** in locale utilizzando le credenziali definite in `src/main/resources/application.properties` (il database `gestionale_dipendenti` e le relative tabelle vengono generati automaticamente all'avvio).
+**Requisiti:** Java 21 e MySQL Server in esecuzione in locale.
+
+1. Impostare le credenziali del database tramite variabili d'ambiente: `DB_USERNAME` (opzionale, default `root`) e `DB_PASSWORD`. Il database `gestionale_dipendenti` e le relative tabelle vengono creati automaticamente all'avvio.
+   ```powershell
+   # Windows (PowerShell)
+   $env:DB_PASSWORD="la_tua_password"
+   ```
+   ```bash
+   # Linux / macOS
+   export DB_PASSWORD="la_tua_password"
+   ```
 2. Eseguire l'applicazione tramite Maven:
    ```bash
    ./mvnw spring-boot:run
