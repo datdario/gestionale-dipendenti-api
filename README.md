@@ -14,6 +14,7 @@ Servizio web RESTful sviluppato nell'ambito didattico in **Java 21 e Spring Boot
 
 ## Documentazione Interattiva (Swagger UI)
 ![Swagger UI](docs/swagger-ui.png)
+
 Esempio di risposta d'errore (`404 Not Found` su una risorsa inesistente):
 
 ![Errore 404](docs/swagger-error-404.png)
